@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <script src="anonymizer.js"></script>
+
+        <p>
+            File to anonymize: <input id="filename" type="file" onchange="getFileType()">
+            <input type="radio" id="fileTypeCSV"  name="fileType" value="csv">CSV
+            <input type="radio" id="fileTypeJSON" name="fileType" value="json">JSON
+            <br>
+            Cols/Keys to anonymize: <input id="keys" type="text" value="0">
+            <button onclick="anonymize()">Anonymize!</button>
+        </p>
+        Status: <input id="status" type="text"><br>
+        <p>
+            Source: <br>
+            <textarea id="sourceArea" rows="10" cols="50"></textarea>
+            <br>
+            <br>
+            Result: <br>
+            <textarea id="resultArea" rows="10" cols="50"></textarea>
+            <br>
+            Conversion maps: <br>
+            <textarea id="conversionMap" rows="10" cols="50"></textarea>
+        </p>
+
+    </body>
+</html>

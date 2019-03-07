@@ -1,0 +1,19 @@
+{
+    "incidents": [
+        {
+            "id": "147008",
+            "param1": "aaa",
+            "param2": "ccc"
+        },
+        {
+            "id": "141232",
+            "param1": "fff",
+            "param2": "ccc"
+        },
+        {
+            "id": "147008",
+            "param1": "bbb",
+            "param2": "ddd"
+        }
+    ]
+}
